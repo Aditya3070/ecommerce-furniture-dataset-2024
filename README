@@ -1,0 +1,30 @@
+E-commerce Furniture Dataset 2024
+
+This project involves analyzing a dataset of furniture products from AliExpress. The dataset contains various product details, such as price, sales data, and shipping information. The goal is to predict the number of items sold based on product features, including price, product title, and tags.
+
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Description
+The dataset used for this project includes over 2000 entries scraped from AliExpress, providing valuable insights into furniture product sales. The data contains key attributes such as the product title, price, original price, number of items sold, and additional tags like shipping information.
+
+### Key Features of the Dataset:
+- `productTitle`: The name of the furniture item.
+- `originalPrice`: The original price of the item before discounts.
+- `price`: The current selling price of the item.
+- `sold`: The number of units sold.
+- `tagText`: Additional tags associated with the item (e.g., "Free shipping").
+
+This dataset is suitable for tasks such as exploratory data analysis (EDA), price optimization, and predictive modeling to forecast the number of items sold based on various product features.
+
+## Installation
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your_username/e-commerce-furniture-dataset.git
