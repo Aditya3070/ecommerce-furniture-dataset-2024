@@ -1,30 +1,24 @@
-E-commerce Furniture Dataset 2024
-
-This project involves analyzing a dataset of furniture products from AliExpress. The dataset contains various product details, such as price, sales data, and shipping information. The goal is to predict the number of items sold based on product features, including price, product title, and tags.
-
-## Table of Contents
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+# E-Commerce Furniture Sales Analysis and Prediction
 
 ## Description
-The dataset used for this project includes over 2000 entries scraped from AliExpress, providing valuable insights into furniture product sales. The data contains key attributes such as the product title, price, original price, number of items sold, and additional tags like shipping information.
-
-### Key Features of the Dataset:
-- `productTitle`: The name of the furniture item.
-- `originalPrice`: The original price of the item before discounts.
-- `price`: The current selling price of the item.
-- `sold`: The number of units sold.
-- `tagText`: Additional tags associated with the item (e.g., "Free shipping").
-
-This dataset is suitable for tasks such as exploratory data analysis (EDA), price optimization, and predictive modeling to forecast the number of items sold based on various product features.
+This project analyzes an e-commerce dataset of furniture sales, focusing on predicting the number of units sold based on product features like price, free shipping, and discount percentage. Insights gained can help improve pricing strategies and optimize sales predictions.
 
 ## Installation
-To set up the project locally, follow these steps:
+1. Clone this repository: `git clone https://github.com/yourusername/ecommerce-furniture-sales.git`
+2. Navigate to the project directory: `cd ecommerce-furniture-sales`
+3. Install dependencies: `pip install -r requirements.txt`
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your_username/e-commerce-furniture-dataset.git
+## Usage
+1. Run the `data_analysis.py` file to perform data cleaning, exploration, and visualization.
+2. Run `sales_prediction.py` to train and evaluate the machine learning model.
+
+## Project Structure
+- `data_analysis.py`: Contains code for data cleaning, exploration, and visualization.
+- `sales_prediction.py`: Contains the machine learning model for predicting sales.
+- `requirements.txt`: Lists all Python dependencies for the project.
+
+## Contributing
+If you have any suggestions for improving the project or adding new features, feel free to fork the repository and submit a pull request.
+
+## License
+This project is licensed under the MIT License.
